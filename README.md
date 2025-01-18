@@ -69,7 +69,13 @@ HTML content saved in data/raw_data/web_data.html.
 
 Processed Data:   
 Market data in data/processed_data/market_data.csv.  
-News data in data/processed_data/news_data.csv.  
+News data in data/processed_data/news_data.csv. 
+
+#### Output 1: market_data.csv
+![market_data  Output](Images/Picture1.png)
+
+#### Output 2: news_data.csv
+![news data output ](Images/Picture2.png)
 
 ## Author ## 
 Pratham Solanki  
