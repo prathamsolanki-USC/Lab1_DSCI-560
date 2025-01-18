@@ -52,7 +52,7 @@ def get_news_data(html_parsed):
                              "LatestNews-link":link_list}
  
     #print(latest_news_data_dict)
-    if len(timestamp_list)!=0 or len(title_list!=0 or len(link_list)!=0:
+    if len(timestamp_list)!=0 or len(title_list)!=0 or len(link_list)!=0:
         print("News Data Fetching was Unsuccessfully")
     return latest_news_data_dict
 
