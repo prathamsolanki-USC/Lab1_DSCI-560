@@ -39,12 +39,7 @@ sudo apt update
 sudo apt install python3 python3-pip
 ```  
 
-3. Install dependencies
-```
-pip install -r requirements.txt
-``` 
-
-4. Run Python scripts as needed
+3. Run Python scripts as needed
 ```
 python3 scripts/task1.py
 python3 scripts/web_scraper.py
