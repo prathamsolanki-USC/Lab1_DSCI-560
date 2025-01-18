@@ -7,13 +7,13 @@ This repository contains all components for Lab Assignment 1 of the DSCI 560 cou
 prathamsolanki_3242692358/
 ├── data/
 │   ├── raw_data/         # Contains raw dataset
-│   ├── processed_data/   # Contains processed datasets (e.g., market_data.csv, news_data.csv)
+│   ├── processed_data/   # Contains processed datasets (market_data.csv, news_data.csv)
 ├── scripts/              # Python scripts for performing various tasks
 │   ├── task1.py          # Basic script to greet a user
 │   ├── web_scraper.py    # Web scraping script using BeautifulSoup
 │   ├── data_filter.py    # Script to filter and process data
 ├── Lab1_report.pdf       # Detailed report of the lab tasks and outputs
-├── Lab1-s25.pdf          # Lab manual with assignment instructions
+├── Lab1-s25.pdf          # Lab manual
 ```
 
 ## Features ## 
@@ -25,6 +25,31 @@ Saved raw HTML data to raw_data/web_data.html.
 Data Filtering:
 Extracted specific fields from web data.
 Generated structured CSV files (market_data.csv and news_data.csv) in processed_data.
+
+## Setup Instructions ##
+1. Clone the repository
+```
+git clone https://github.com/prathamsolanki-USC/Lab1_DSCI-560.git
+cd prathamsolanki_3242692358
+```
+
+2. Ensure Python and pip are installed
+```
+sudo apt update
+sudo apt install python3 python3-pip
+```  
+
+3. Install dependencies
+```
+pip install -r requirements.txt
+``` 
+
+4. Run Python scripts as needed
+```
+python3 scripts/task1.py
+python3 scripts/web_scraper.py
+python3 scripts/data_filter.py
+```
 
 ## Documentation ## 
 Lab Manual: Lab_manual.pdf includes assignment instructions.  
