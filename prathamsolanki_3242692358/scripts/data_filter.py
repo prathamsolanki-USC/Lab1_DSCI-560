@@ -33,7 +33,7 @@ def get_market_data(html_parsed):
                         "marketcard_stockposition": marketcard_stockposition_list,
                         "MarketCard_changesPct":MarketCard_changesPcs_list
                         }
-    if len(marketcard_smybol_list)!=0 or len(marketcard_stockposition_list)!=0 or len(MarketCard_changesPcs_list)!=0:
+    if len(marketcard_smybol_list)==0 or len(marketcard_stockposition_list)==0 or len(MarketCard_changesPcs_list)==0:
         print("Market Data Fetching was Unsuccessfully")
     return market_card_dict
 
@@ -52,7 +52,7 @@ def get_news_data(html_parsed):
                              "LatestNews-link":link_list}
  
     #print(latest_news_data_dict)
-    if len(timestamp_list)!=0 or len(title_list)!=0 or len(link_list)!=0:
+    if len(timestamp_list)==0 or len(title_list)==0 or len(link_list)==0:
         print("News Data Fetching was Unsuccessfully")
     return latest_news_data_dict
 
