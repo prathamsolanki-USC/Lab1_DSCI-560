@@ -12,7 +12,7 @@ prathamsolanki_3242692358/
 │   ├── task1.py          # Basic script to greet a user
 │   ├── web_scraper.py    # Web scraping script using BeautifulSoup
 │   ├── data_filter.py    # Script to filter and process data
-├── Lab1_report.pdf       # Detailed report of the lab tasks and outputs
+├── Lab1_pratham_solanki.pdf       # Detailed report of the lab tasks and outputs
 ├── Lab1-s25.pdf          # Lab manual
 ```
 
@@ -47,8 +47,8 @@ python3 scripts/data_filter.py
 ```
 
 ## Documentation ## 
-Lab Manual: Lab_manual.pdf includes assignment instructions.  
-Lab Report: Lab1_report.pdf documents setup steps, outputs, and results with screenshots.
+Lab Manual: Lab1-s25.pdf includes assignment instructions.  
+Lab Report: Lab1_pratham_solanki.pdf documents setup steps, outputs, and results with screenshots.
 
 ## Python Scripts ##
 task1.py  
@@ -69,7 +69,13 @@ HTML content saved in data/raw_data/web_data.html.
 
 Processed Data:   
 Market data in data/processed_data/market_data.csv.  
-News data in data/processed_data/news_data.csv.  
+News data in data/processed_data/news_data.csv. 
+
+#### Output 1: market_data.csv
+![market_data  Output](Images/Picture1.png)
+
+#### Output 2: news_data.csv
+![news data output ](Images/Picture2.png)
 
 ## Author ## 
 Pratham Solanki  
